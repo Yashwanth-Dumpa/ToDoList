@@ -1,0 +1,34 @@
+.main-container{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    height:100vh;
+    align-items:center;
+    
+}
+
+#listContainer{
+    width:60vh;
+    background-color: aqua;
+}
+.list-container{
+    display:flex;
+    padding:10px;
+    justify-content:space-between;
+  
+}
+
+.para{
+    width:20vh;
+    word-wrap: break-word;
+}
+
+.close-icon{
+margin-top:10px;
+max-height:100px;
+max-width:150px;
+}
+
+.cross-line{
+    text-decoration: line-through;
+}
